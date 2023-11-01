@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Fireside';
+    src: url(/font/Fireside.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+themes{
+    font-size: 3rem;
+}
+
+li.nav-item{
+    font-size: 1.5rem;
+    font-family: 'Fireside';
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Fireside';
+    font-weight: bold;
+}
+
+.card-body{
+    height: 13rem;
+    background-color: #f6f0ff;
+}
+
+.card img{
+    height: 20.6rem;
+    width: fit-content;
+    align-self: center;
+}
+
+@media screen and (max-width:1400px){
+    .card img{
+        height: 17.6rem;
+        width: fit-content;
+        align-self: center;
+    }
+}
+@media screen and (max-width:1200px){
+    .card-body{
+        height: 16rem;
+        background-color: #f6f0ff;
+    }
+    
+    .card img{
+        height: 14.6rem;
+        width: fit-content;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .card-body{
+        height: 19rem;
+        background-color: #f6f0ff;
+    }
+    
+    .card img{
+        height: 10.6rem;
+        width: fit-content;
+        align-self: center;
+    }
+}
+@media screen and (max-width:770px){
+    .card-body{
+        height: 15rem;
+        background-color: #f6f0ff;
+    }
+    
+    .card img{
+        height: 15.6rem;
+        width: fit-content;
+        align-self: center;
+    }
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #48346b;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    font-family: 'Fireside';
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #470250;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #470250;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

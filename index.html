@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fenix Blade</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
     <meta name="description" content="Developer Portfolio Fenix Blade">
   </head>
   <body style="background-color: #bdaad8;">
@@ -26,7 +27,7 @@
                 <a class="nav-link" href="#acerca-de-mi">Acerca de mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
+                <a class="nav-link" href="#contacto">Encuentrame</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#mis-proyectos">Mis proyectos</a>
@@ -41,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12"><img src="./img/FenixBladeStudios.webp" class="img-fluid text-center py-5 px-5" alt="Studio"></div>
-                <div class="col-lg-6 col-md-6 col-sm-12" style="font-size: 2.3rem; padding-top: 2rem;">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="font-size: 2rem; padding-top: 2rem;">
                   Esta pagina es de un estudio de videojuegos indie y portafolio personal. El estudio, esta enfocado principalmente en hacer proyectos personales y aprender nuevas tecnicas de trabajo. El objetivo que tengo es conseguir mejorar en el desarrollo de videojuegos y poder crear experiencias memorables. A través de este portafolio, espero compartir mi trabajo, mi forma de hacer las cosas y mi proceso de aprendizaje.
                 </div>
             </div>
@@ -51,9 +52,9 @@
     <!--Acerca-->
     <section class="acerca py-5" id="acerca-de-mi">
         <div class="container">
-            <h1 class="text-center py-5"><b>Acerca De Mi</b></h1>
+            <h1 class="text-center py-5"><b class="themes">Acerca De Mi</b></h1>
             <div class="row py-5">
-                <div class="col-lg-6 col-md-6 col-sm-12" style="font-size: 2.3rem; padding-top: 2rem;">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="font-size: 2rem; padding-top: 2rem;">
                     <p>
                         Estudiante de tercer semestre de ingenieria en desarrollo de software interactivo para videojuegos en la universidad AMERIKE. 
                     </p>
@@ -66,7 +67,7 @@
     <!--Contacto-->
     <section class="Contacto py-5" id="contacto">
       <div class="container">
-        <h1 class="text-center py-5"><b>Contacto</b></h1>
+        <h1 class="text-center py-5"><b class="themes">Encuentrame</b></h1>
         <table class="table table-striped">
         <tbody>
           <tr>
@@ -98,7 +99,7 @@
     <!--Proyectos-->
     <section class="proyectos py-5 px-3" id="mis-proyectos">
       <div class="container">
-          <h1 class="text-center py-5"><b>Mis Proyectos</b></h1>
+          <h1 class="text-center py-5"><b class="themes">Mis Proyectos</b></h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card">
@@ -106,7 +107,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Manga Unite</h5>
                   <p class="card-text ">Manga unite es un visualizador de mangas hecho con el afán de ofrecer una experiencia de lectura agradable y comoda.</p>
-                  <a href="./DOCS/Empathy Map.pdf" class="btn btn-primary">Ver Proyecto</a>
+                  <a href="" class="btn btn-primary disabled">En desarrollo</a>
                 </div>
               </div>
             </div>
@@ -120,11 +121,42 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/DNAV.webp" class="card-img-top" alt="DNAV">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Definetly Not a Virus (trust me)</h5>
+                  <p class="card-text ">Juego de terror hecho para una gamejam hacerca del acoso sibernetico y los peligros de abrir archivos de desconocidos y/o externos.</p>
+                  <a href="https://inztinct.itch.io/definetly-not-a-virus-trust-me" target="_blank" class="btn btn-primary">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
     </section>
     <!--/Proyectos-->
     </main>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <img src="./img/FenixBladeStudios.webp" alt="FenixBladeStudios" style="height: 15rem; width: fit-content;">
+          </figure>
+        </div>
+        <div class="box">
+          <h2>CONTACTO PROFECIONAL</h2>
+          <div class="red-social">
+            <a href="http://" class="fa fa-whatsapp"></a>
+            <a href="http://" class="fa fa-phone"></a>
+            <a href="http://" class="fa fa-envelope"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2023 <b>Fenix Blade</b> - todos los derechos reservados.</small>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/f2d1d2015f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
